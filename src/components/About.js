@@ -10,7 +10,7 @@ const About = resumeData => {
 				<div className="three columns">
 					<img
 						className="profile-pic"
-						src="https://media-exp1.licdn.com/dms/image/C4E03AQETtdgnBDei0g/profile-displayphoto-shrink_400_400/0/1517668943695?e=1613001600&v=beta&t=N2xoM8Nf-yB8gzeQWmTCQuy3B-RFAmq2xNzXUtIpRy0"
+						src="../images/me.jpeg"
 						alt=""
 					/>
 				</div>
