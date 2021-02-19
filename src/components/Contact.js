@@ -11,8 +11,8 @@ const Contact = resumeData => {
 					<p>Get in touch!</p>
 				</div>
 				<div className="nine columns main-col contacts">
-					{contact.map(item => (
-						<a href={item.link}>
+					{contact.map((item, index) => (
+						<a href={item.link} key={index}>
 							<img src={item.logo} alt={item.link} />
 						</a>
 					))}
