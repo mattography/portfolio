@@ -4,7 +4,7 @@ const Work = resumeData => {
 		resumeData: { work: jobs }
 	} = resumeData;
 	return (
-		<section id="work" class="work-section">
+		<section id="work" className="work-section">
 			<div className="row work section-content-spacer">
 				<div className="three columns header-col">
 					<h1>
