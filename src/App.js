@@ -6,6 +6,9 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-46553920-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 class App extends Component {
 	render() {
 		return (
