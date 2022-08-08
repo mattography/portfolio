@@ -135,7 +135,7 @@
 		right: 25%;
 		content: '';
 	}
-   #nav-wrap > a[href="#"]:before {
+   #nav-wrap > a[href="/#"]:before {
 	   position: absolute;
 		border: 2px solid #000;
 		top: 35%;
@@ -144,7 +144,7 @@
       content: '';
       transform: rotate(45deg);
    }
-   #nav-wrap > a[href="#"]:after {
+   #nav-wrap > a[href="/#"]:after {
 	   position: absolute;
 		border: 2px solid #000;
 		top: 36%;

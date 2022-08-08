@@ -16,7 +16,7 @@ const Header = ({resumeData}) => {
 						<a className="mobile-btn rotate-90-cw" href="#nav-wrap" title="Show navigation">
 							Show navigation
 						</a>
-						<a className="mobile-btn rotate-90-cw" href="#" title="Hide navigation">
+						<a className="mobile-btn rotate-90-cw" href="/#" title="Hide navigation">
 							Hide navigation
 						</a>
 						<ul id="nav" className="nav fade-in-top">
