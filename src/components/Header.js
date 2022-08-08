@@ -1,48 +1,55 @@
-import React, { Component } from "react";
-export default class Header extends Component {
-	render() {
-		let resumeData = this.props.resumeData;
+import React, { useState, useEffect } from "react";
+const Header = ({resumeData}) => {
+		const [isActive, setActive] = useState("");
+		
+		const toggleClass = (e) => {
+			setActive(e.currentTarget.hash);
+		};
+
+		useEffect(() => {
+			setActive(window.location.hash)
+		})
+
 		return (
 			<React.Fragment>
-				<div className="header-overlay"></div>
-				<header id="home">
-					<nav id="nav-wrap">
-						<a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+				<nav id="nav-wrap">
+						<a className="mobile-btn rotate-90-cw" href="#nav-wrap" title="Show navigation">
 							Show navigation
 						</a>
-						<a className="mobile-btn" href="#nav-wrap" title="Hide navigation">
+						<a className="mobile-btn rotate-90-cw" href="#" title="Hide navigation">
 							Hide navigation
 						</a>
-						<ul id="nav" className="nav">
-							<li className="current">
-								<a className="smoothscroll" href="#home">
+						<ul id="nav" className="nav fade-in-top">
+							<li className={isActive === "#home" ? "current": ""}>
+								<a href="#home" onClick={toggleClass}>
 									Home
 								</a>
 							</li>
-							<li>
-								<a className="smoothscroll" href="#about">
+							<li className={isActive === "#about" ? "current": ""} >
+								<a href="#about" onClick={toggleClass}>
 									About
 								</a>
 							</li>
-							<li>
-								<a className="smoothscroll" href="#projects">
+							<li className={isActive === "#projects" ? "current": ""} >
+								<a href="#projects" onClick={toggleClass}>
 									Projects
 								</a>
 							</li>
-							<li>
-								<a className="smoothscroll" href="#work">
+							<li className={isActive === "#work" ? "current": ""} >
+								<a href="#work" onClick={toggleClass}>
 									Work
 								</a>
 							</li>
-							<li>
-								<a className="smoothscroll" href="#contact">
+							<li className={isActive === "#contact" ? "current": ""} >
+								<a href="#contact" onClick={toggleClass}>
 									Contact
 								</a>
 							</li>
 						</ul>
 					</nav>
-
-					<div className="row banner">
+				<div className="header-overlay"></div>
+				<header id="home">
+					<div className="banner">
 						<div className="banner-text">
 							<h1 className="responsive-headline">
 								Hi, I'm {resumeData.name}.
@@ -50,19 +57,6 @@ export default class Header extends Component {
 							<h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
 								Scroll down to find out more.
 							</h3>
-							<hr />
-							<ul className="social">
-								{resumeData.socialLinks &&
-									resumeData.socialLinks.map(item => {
-										return (
-											<li key={item.name}>
-												<a href={item.url} target="_blank" rel="noopener noreferrer">
-													<i className={item.className}></i>
-												</a>
-											</li>
-										);
-									})}
-							</ul>
 						</div>
 					</div>
 
@@ -74,5 +68,6 @@ export default class Header extends Component {
 				</header>
 			</React.Fragment>
 		);
-	}
 }
+
+export default Header;

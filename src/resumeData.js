@@ -13,47 +13,35 @@ let resumeData = {
 	education: [{}],
 	work: [
 		{
+			CompanyName: "Oracle",
+			logo:
+				"./images/oracle.svg",
+			link: "https://www.oracle.com/"
+		},
+		{
 			CompanyName: "J.P.Morgan Chase",
 			logo:
-				"https://www.jpmorgan.com/content/dam/shared/logos/logos-cb-jpm.svg",
+				"./images/logos-cb-jpm.svg",
 			link:
 				"https://www.jpmorgan.com/insights/technology/digital-experience-design"
 		},
 		{
 			CompanyName: "AMC Networks",
 			logo:
-				"https://media-exp1.licdn.com/dms/image/C4D0BAQGhhEbiKIlrnQ/company-logo_100_100/0/1587492987080?e=1616025600&v=beta&t=EW7ELkicB5gGUd1Of21pxuDJ7Ay3f3YEBU5duv8SeLU",
+				"./images/amc.svg",
 			link: "https://www.sundancenow.com/"
 		},
 		{
 			CompanyName: "E*Trade",
 			logo:
-				"https://media-exp1.licdn.com/dms/image/C4E0BAQEmJBRkJkD_Kg/company-logo_100_100/0/1519856029450?e=1616025600&v=beta&t=SIuJIjzoNyaFOtb_1fP_nqEn-GRLwgdfrRqoRiJRqDk",
+				"./images/etrade.svg",
 			link: "https://us.etrade.com/home"
 		},
 		{
 			CompanyName: "Thompson Reuters",
 			logo:
-				"https://media-exp1.licdn.com/dms/image/C4D0BAQE1nz_IxaQE1A/company-logo_100_100/0/1599576385189?e=1616025600&v=beta&t=p6ckuEVm-yrXCEbWQ0-5n17iZFkgt9tWQGeIulOXGjg",
+				"./images/thomsonreuters.svg",
 			link: "https://www.reuters.com/video/"
-		},
-		{
-			CompanyName: "Receptive",
-			logo:
-				"https://media-exp1.licdn.com/dms/image/C560BAQGUF78bjiUCfA/company-logo_100_100/0/1519901948493?e=1616025600&v=beta&t=f2tg9WEfWaw9oH466dfKUSgqLqgpxmrDw3V8u62Bsws",
-			link: "https://www.receptiv.com/"
-		},
-		{
-			CompanyName: "Knovel/Elsevier",
-			logo:
-				"https://media-exp1.licdn.com/dms/image/C4E0BAQGVGmi9cQssCw/company-logo_100_100/0/1519856126398?e=1616025600&v=beta&t=ng2F-fhvgjBLmyDTK0Qo5c2FMT0Fem6WQwGjiRsir_k",
-			link: "https://app.knovel.com/web/index.v"
-		},
-		{
-			CompanyName: "American Thoracic Society",
-			logo:
-				"https://media-exp1.licdn.com/dms/image/C4D0BAQGlNo4o7cMfKg/company-logo_100_100/0/1605013824103?e=1616025600&v=beta&t=UOg3Y5304C4bk5TIRuYGaPdOPE-5FhW-KGMZWyrc5MY",
-			link: "https://ats.org/"
 		}
 	],
 	skillsDescription: "Your skills here",
