@@ -59,7 +59,7 @@ header .banner {
    height: 100%;
    padding-bottom: 30px;
    text-align: center;
-   background-color: rgba(000,000,000,.5);
+   background-color: rgba(000,000,000,.8);
 }
 
 header .banner-text { 
@@ -372,7 +372,6 @@ ul#nav li.current {
 }
 
 .resume {
-  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }

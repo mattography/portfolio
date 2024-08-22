@@ -4,13 +4,13 @@ const Work = resumeData => {
 		resumeData: { work: jobs }
 	} = resumeData;
 	return (
-		<section id="work" className="work-section">
+		<section id="experience" className="work-section">
 			<div className="row work section-content-spacer">
 				<div className="three columns header-col">
 					<h1>
-						<span>Work</span>
+						<span>Experience</span>
 					</h1>
-					<p>Companies I have worked for.</p>
+					<p>Where I've been.</p>
 				</div>
 
 				<div className="nine columns main-col resume">

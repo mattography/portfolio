@@ -30,14 +30,9 @@ const Header = ({resumeData}) => {
 									About
 								</a>
 							</li>
-							<li className={isActive === "#projects" ? "current": ""} >
-								<a href="#projects" onClick={toggleClass}>
-									Projects
-								</a>
-							</li>
-							<li className={isActive === "#work" ? "current": ""} >
-								<a href="#work" onClick={toggleClass}>
-									Work
+							<li className={isActive === "#experience" ? "current": ""} >
+								<a href="#experience" onClick={toggleClass}>
+									Experience
 								</a>
 							</li>
 							<li className={isActive === "#contact" ? "current": ""} >

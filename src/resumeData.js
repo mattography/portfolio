@@ -4,9 +4,9 @@ let resumeData = {
 	role: "Frontend Developer",
 	linkedinId: "https://www.linkedin.com/in/mattalter/",
 	whoami:
-		"Hi, I’m Matt. Professionally (ok, and for fun), I’m a front end developer specializing in JavaScript(React), CSS(SCSS, SASS, JSS), and HTML5.",
+		"I’m a Principal Front End Developer specializing in JavaScript (React), CSS (SCSS, SASS, JSS), and HTML5.",
 	whatdoido:
-		"As a Creative Technologist (front end developer), I work with designers and engineers to create innovative solutions to design and engineering problems. That means identifying the right tools and technologies to address the problem(s) at hand, while keeping an eye on the future and accounting for any possible ADA issues. When not coding, I’m an amateur photographer, with a focus on landscapes using a Canon DSLR and DJI Mavic Pro drone.",
+		"As a Front End Developer, I collaborate with designers and engineers to create innovative solutions to design and engineering problems. That means identifying the right tools and technologies to address the problem(s) at hand, while keeping an eye on the future and accounting for any possible accessibility issues.",
 	whydoidoit:
 		"I love being the bridge between design and engineering, and building cool things to solve interesting problems!",
 	address: "New York",
@@ -57,13 +57,6 @@ let resumeData = {
 		}
 	],
 	portfolio: [
-		// {
-		// 	name: "Amazing Colossal Podcast Merch! Site",
-		// 	description:
-		// 		"Customized Liquid templates on Shopify for the Gilbert Gottfried's Amazing Colossal Podcast! e-commerce site.",
-		// 	imgurl: "images/portfolio/phone.jpg",
-		// 	link: ""
-		// },
 		{
 			name: "Laurence Fishburne Official Site",
 			description:
@@ -83,10 +76,10 @@ let resumeData = {
 			link: "http://www.linkedin.com/in/mattalter",
 			logo: "../images/linkedin.png"
 		},
-		{
-			link: "https://github.com/mattography",
-			logo: "../images/github.png"
-		}
+		// {
+		// 	link: "https://github.com/mattography",
+		// 	logo: "../images/github.png"
+		// }
 	]
 };
 
